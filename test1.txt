@@ -1,0 +1,50 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# task_example.txt  —  demonstrates all supported task file sections
+#
+# Lines beginning with # are ignored (they are parsed as part of sections,
+# but the Python code will strip them when building prompts — or you can
+# simply put comments before the first section header).
+# ──────────────────────────────────────────────────────────────────────────────
+
+TASK:
+Write a Python script that reads a list of integers from stdin (one per line),
+computes their sum and mean (rounded to 2 decimal places), then prints both
+values in the format shown in EXPECTED_OUTPUT.
+
+# ── Exact stdout match ────────────────────────────────────────────────────────
+EXPECTED_OUTPUT:
+Sum: 150
+Average: 30.00
+
+# ── Stdin that will be piped into the generated script ───────────────────────
+INPUT_DATA:
+10
+20
+30
+40
+50
+
+# ──────────────────────────────────────────────────────────────────────────────
+# task_with_tests.txt  —  example using inline assert tests instead
+# (copy to a separate file and run with that file if you want to try this mode)
+# ──────────────────────────────────────────────────────────────────────────────
+#
+# TASK:
+# Implement three functions in a single Python file:
+#   add(a, b)       — returns the sum of two numbers
+#   subtract(a, b)  — returns a minus b
+#   multiply(a, b)  — returns the product
+#
+# TEST:
+# assert add(2, 3) == 5
+# assert add(-1, 1) == 0
+# assert add(0, 0) == 0
+#
+# TEST:
+# assert subtract(10, 4) == 6
+# assert subtract(0, 5) == -5
+#
+# TEST:
+# assert multiply(3, 4) == 12
+# assert multiply(-2, 5) == -10
+# assert multiply(0, 999) == 0
