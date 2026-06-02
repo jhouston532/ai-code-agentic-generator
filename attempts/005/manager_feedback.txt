@@ -1,0 +1,6 @@
+Here's some concrete feedback for the next coder: 
+
+* Make sure to properly indent your code. The indentation in attempts 3 and 5 were off, which caused syntax errors.
+* Use more descriptive variable names. In attempt 4, it was hard to understand what the code was trying to do because the variable names were not clear.
+* Test your code thoroughly before running it. Attempt 5 had a bug where it didn't handle the case when there are no values provided.
+* Consider using a more robust way of parsing command-line arguments. The current approach in attempts 3 and 5 is prone to errors.

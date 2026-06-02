@@ -1,0 +1,4 @@
+For the next coder (qwen2.5-coder), here are some concrete bullet-point fixes: 
+* Check if all values are numeric and not empty before calculating sum and average.
+* Use f-strings for better readability in printing results.
+* Handle non-numeric inputs gracefully by raising a ValueError with a meaningful error message.

@@ -1,0 +1,5 @@
+To fix the recent attempt, consider adding error handling to ensure that the code doesn't crash when encountering invalid input. Here are some concrete bullet-point fixes for the next coder:
+
+* Add a check before calculating the average to ensure that the number of units is not zero.
+* Use try-except blocks to catch and handle any exceptions that might occur during the calculation.
+* Consider adding input validation to ensure that only numerical values are accepted as command-line arguments.

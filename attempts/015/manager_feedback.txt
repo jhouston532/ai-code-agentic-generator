@@ -1,0 +1,7 @@
+To fix this script, please consider the following points:
+
+* In Attempt 13, the expected output was not matched. Make sure that the print statements are correct.
+* In Attempt 14, the code correctly handles invalid input but fails to produce the expected output. Ensure that the calculations for units, sum, and average are accurate.
+* In Attempt 15, there is an indentation error in the print statement. Fix this issue by adjusting the indentation.
+
+Overall, codellama should be able to generate a working script with some minor adjustments.

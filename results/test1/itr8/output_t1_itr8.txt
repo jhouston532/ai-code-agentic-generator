@@ -1,0 +1,21 @@
+
+══════════════════════════════════════════════════════════════
+  Ollama Code-Gen Pipeline  (sandbox=ON)
+══════════════════════════════════════════════════════════════
+[TASK]  test1.txt
+[TASK]  Write a Python script that reads a list of integers from stdin (one per line),
+c…
+[EXPECTED] 'Sum: 150\nAverage: 30.00'
+
+[MANAGER] 'llama3' planning initial route…
+[MANAGER] Initial model order: ['deepseek-coder-v2', 'codellama', 'deepseek-coder']
+
+[PIPELINE] Max 20 iterations  |  Models: ['deepseek-coder', 'codellama', 'mistral', 'qwen2.5-coder', 'starcoder2', 'deepseek-coder-v2']
+
+[ITER 01]  model=deepseek-coder-v2
+
+══════════════════════════════════════════════════════════════
+  ✓  SUCCESS — iteration 1, model 'deepseek-coder-v2'
+     success.py
+══════════════════════════════════════════════════════════════
+

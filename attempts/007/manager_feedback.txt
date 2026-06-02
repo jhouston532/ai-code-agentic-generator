@@ -1,0 +1,5 @@
+To improve the next attempt, please focus on the following fixes:
+
+* In the main function, add a check to ensure that the values list is not empty before calculating the sum and average. This will prevent division by zero errors.
+* Use f-strings to format the output strings for better readability.
+* Add more descriptive variable names to make the code easier to understand.

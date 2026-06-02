@@ -1,0 +1,5 @@
+For the next coder, please consider the following fixes:
+
+* The script should correctly handle decimal values in the input. For example, if the user enters '1.5', the script should treat this as a single value rather than two separate numbers.
+* The script should correctly calculate the sum and average of the input values. This may require using a loop to iterate over the values and perform the calculations.
+* The script should print the expected output, including the number of units (i.e., the length of the input list), the sum of the values, and the average of the values.

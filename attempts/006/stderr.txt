@@ -1,0 +1,4 @@
+File "/tmp/tmp8joi_he1.py", line 1
+    This should produce the following output:
+         ^^^^^^
+SyntaxError: invalid syntax

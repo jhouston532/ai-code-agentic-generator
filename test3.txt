@@ -1,0 +1,9 @@
+TASK:
+
+EXPECTED_OUTPUT:
+Units: 5
+Sum: 11
+Average: 2.2
+
+TEST_ARGS:
+1 1 2 3 4

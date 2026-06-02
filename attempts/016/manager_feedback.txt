@@ -1,0 +1,5 @@
+To fix this script, consider the following: 
+* Fix the calculation of units by using len(values) instead of num_units.
+* Correct the sum calculation by initializing $sum as 0 outside the loop and then updating it inside the loop. The current code is not doing anything with the variable.
+* Rounding off the average to two decimal places can be done using the round() function, but make sure to use it correctly.
+* Finally, ensure that the script prints the expected output in the correct format.

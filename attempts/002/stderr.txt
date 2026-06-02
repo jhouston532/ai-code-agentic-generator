@@ -1,0 +1,2 @@
+expected : 'Units: 5\nSum: 11\nAverage: 2.2'
+got      : 'Units: 0\nSum: 0\nAverage: 0.0'

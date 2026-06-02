@@ -1,0 +1,1 @@
+For the next coder, please make sure to handle the case where no command-line arguments are provided by checking if sys.argv[1:] is empty before trying to convert the values to floats. Also, consider adding some error handling to deal with unexpected input.

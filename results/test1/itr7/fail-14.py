@@ -1,0 +1,1 @@
+def main():  # replace with appropriate function name if it's a different task. For example, sum_numbers could work better in this case than the original one I provided above (it might not make sense to call them differently). Also note that we are using raw input here instead of

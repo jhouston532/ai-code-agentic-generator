@@ -1,0 +1,5 @@
+For the next attempt, please focus on the following fixes:
+
+* In Attempt 15, there was an IndentationError due to unexpected indent. Make sure to correct this issue.
+* In Attempts 16 and 17, the output did not match the expected result. Review the code and ensure that it accurately calculates the units, sum, and average.
+* Consider using a more robust way to handle invalid input, such as catching specific exceptions or validating user input before processing.

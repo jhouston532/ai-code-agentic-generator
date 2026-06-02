@@ -1,0 +1,26 @@
+import sys
+
+# Check if there are enough arguments provided by the user
+if len(sys.argv) < 2:
+    print("No input provided.")
+    sys.exit()
+
+# Extract numerical values from command line arguments
+values = []
+for arg in sys.argv[1:]:
+    try:
+        value = float(arg)
+        values.append(value)
+    except ValueError:
+        print(f"Invalid input: {arg} is not a number.")
+        sys.exit()
+
+# Calculate the required statistics
+units = len(values)
+total_sum = sum(values)
+average = total_sum / units if units > 0 else 0
+
+# Print the results
+print("Units:", units)
+print("Sum:", total_sum)
+print("Average:", average)

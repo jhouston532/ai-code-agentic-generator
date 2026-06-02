@@ -1,0 +1,4 @@
+For the next coder, please consider the following fixes:
+* In Attempt 2, ensure that the values are correctly parsed from command line arguments and stored in the `values` list.
+* In Attempt 4, handle decimal points by using `float(arg)` instead of checking if the argument is a digit.
+* Consider adding error handling to check for invalid input or edge cases.

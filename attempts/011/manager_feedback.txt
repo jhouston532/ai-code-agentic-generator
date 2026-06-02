@@ -1,0 +1,5 @@
+Here are some concrete bullet-point fixes for the next coder:
+
+* In Attempt 9, codellama failed because it didn't handle the expected output correctly. Mistral should be able to generate code that produces the correct output.
+* In Attempt 10, qwen2.5-coder failed because it didn't provide any logic to calculate the sum and average of the input values. Mistral should be able to generate code that calculates these values correctly.
+* In Attempt 11, deepseek-coder failed due to a syntax error in its code. Mistral should be able to generate code without syntax errors.

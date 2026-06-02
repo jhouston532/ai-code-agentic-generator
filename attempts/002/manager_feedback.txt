@@ -1,0 +1,4 @@
+To fix the recent attempts, consider the following points:
+* In Attempt 1, the ZeroDivisionError occurs because the units variable is not initialized correctly. Make sure to handle this edge case by checking if the length of the values list is zero before performing division.
+* In Attempt 2, the code does not account for decimal points in the input values. Consider using a more robust way to read and process the command-line arguments, such as using the argparse library.
+* Both attempts lack proper error handling and logging mechanisms. Implementing these will help identify and debug issues more effectively.

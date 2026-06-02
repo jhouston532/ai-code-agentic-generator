@@ -1,0 +1,1 @@
+For next coder please make sure to handle invalid input properly by adding exception handling for non-integer values as well consider simplifying code in order not unnecessary functions like add , subtract, multiply can be removed from your solution . Focus on writing a concise and readable script that achieves the desired output.

@@ -1,0 +1,6 @@
+For the next coder (deepseek-coder), please focus on the following fixes:
+
+* Review the code and ensure that it correctly calculates the number of items in the list, sum, and average.
+* Check for any potential issues with decimal points and numeric values.
+* Verify that the script can handle a variety of input formats (e.g., integers and decimals).
+* Make sure to test the script thoroughly with different inputs to ensure it produces accurate results.

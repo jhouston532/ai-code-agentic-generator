@@ -1,0 +1,4 @@
+File "/tmp/tmpglxgjem0.py", line 13
+    if not all(isinstance(value, (int, float)) and value != 0 or len(num_list)!=units else ValueError("All provided values must be numeric.")  # Checking whether the input is a number with decimal points. If it's zero then raise an error
+                                                                                      ^^^^
+SyntaxError: invalid syntax

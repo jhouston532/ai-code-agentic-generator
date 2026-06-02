@@ -1,0 +1,6 @@
+For the next attempt with Codellama, please focus on the following fixes:
+
+* In the main function, add a check to ensure that at least one command-line argument is provided. If not, print an error message and exit.
+* Use the `argparse` module to handle command-line arguments more robustly. This will help with parsing and validating user input.
+* In the calculation of the average, use the `round()` function to ensure that the result has two decimal places.
+* Finally, make sure to print the results in a clear and concise manner.

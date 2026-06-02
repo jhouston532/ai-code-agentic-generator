@@ -1,0 +1,5 @@
+For the next coder, please make sure to: 
+* Correct the syntax error on line 13 by adding parentheses around the if statement.
+* Fix the logic in the if statement to correctly check for non-numeric values. The current implementation is incorrect and will raise a ValueError even when all values are numeric.
+* Use the correct variable name `sum` instead of `total_sum` when calculating the sum of the list.
+* Correctly calculate the average by dividing the total sum by the number of units, not by using parentheses around the division operator.

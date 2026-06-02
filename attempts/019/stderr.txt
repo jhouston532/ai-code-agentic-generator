@@ -1,0 +1,4 @@
+File "/tmp/tmp8x6qrdr1.py", line 15
+    if __name__ ==“_main”: main()
+                  ^
+SyntaxError: invalid character '“' (U+201C)

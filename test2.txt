@@ -1,0 +1,16 @@
+TASK:
+Write a Python script that reads numerical values passed as command-line arguments.
+The user runs it as: python3 script.py 1 1 2 3 4
+It must print three lines:
+  - "Units: " followed by the count of values
+  - "Sum: " followed by their sum (print as integer if whole, e.g. 11 not 11.0)
+  - "Average: " followed by their average rounded to 1 decimal place
+Values may include decimals. Do not print usage messages or error text to stdout.
+
+EXPECTED_OUTPUT:
+Units: 5
+Sum: 11
+Average: 2.2
+
+TEST_ARGS:
+1 1 2 3 4

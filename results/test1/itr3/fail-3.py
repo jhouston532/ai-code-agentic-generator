@@ -1,0 +1,8 @@
+It looks like there are a few issues with your code that need to be addressed in order for it to pass the review. Here are some specific fixes that you may want to consider making:
+
+1. Remove unnecessary docstrings and comments: There are several docstrings and comments in your code that do not provide any useful information. You can safely remove them without affecting the functionality of the code.
+2. Use consistent indentation throughout the code: The indentation of your code is inconsistent, which makes it difficult to read and understand. It's important to use consistent indentation throughout the code to make it easier for others to read and understand your code.
+3. Fix the calculation of the mean: Instead of manually calculating the mean, you can use the `sum` function with a generator expression to calculate the sum of the numbers in the list. Then, divide that by the length of the list to get the mean. For example: `mean = sum(numbers) / len(numbers)`.
+4. Correctly format the print statements: The print statements in your code are not correctly formatted to match the expected output. You should use the same formatting as the examples provided in the assignment instructions, which include a space between the variable name and the value being printed. For example: `print("The mean is", mean)`.
+
+By making these fixes, you should be able to pass the review and move on to the next step of the assignment.

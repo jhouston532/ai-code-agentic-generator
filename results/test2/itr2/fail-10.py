@@ -1,0 +1,32 @@
+import sys
+
+def main():
+    # Check if there are any arguments provided
+    if len(sys.argv) < 2:
+        print("No input provided.")
+        return
+
+    try:
+        # Read the list of numbers from stdin, convert to float
+        numbers = list(map(float, sys.argv[1:]))
+
+        # Calculate the number of units
+        num_units = len(numbers)
+
+        # Calculate the sum of all items in the list
+        total_sum = sum(numbers)
+
+        # Calculate the average of all items in the list
+        avg = total_sum / num_units if num_units > 0 else 0
+
+        # Print the results
+        print("Units:", num_units)
+        print("Sum:", round(total_sum, 2))
+        print("Average:", round(avg, 2))
+
+    except ValueError as e:
+        # Handle cases where a non-numeric value is provided
+        print("Error:", str(e))
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,8 @@
+To fix this code, you can start by fixing the indentation error on line 10. The correct code should look like this:
+
+    if len(values) != units: print("Units :", units, file = sys.stderr) 
+else: None
+
+Also, consider adding some error handling to deal with cases where the user enters non-numeric values or empty strings. This can be done by using try-except blocks and checking for exceptions like ValueError.
+
+Finally, make sure that the print statements are correctly formatted and aligned.

@@ -1,0 +1,4 @@
+File "/tmp/tmpvzw_cixf.py", line 1
+    This will output the following results:
+         ^^^^
+SyntaxError: invalid syntax

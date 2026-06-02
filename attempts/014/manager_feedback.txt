@@ -1,0 +1,6 @@
+For the next coder (deepseek-coder), please focus on the following fixes:
+
+* Correctly handle the command-line arguments and convert them to floats.
+* Calculate the sum of the values correctly, taking into account any decimal points.
+* Round the average value to two decimal places for better accuracy.
+* Ensure that the output is formatted correctly, with each line separated by a newline character.

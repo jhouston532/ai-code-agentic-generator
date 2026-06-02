@@ -1,0 +1,5 @@
+For the next attempt, please focus on the following fixes:
+
+* In Attempt 10, the code was missing error handling for non-numeric inputs. Make sure Codellama handles this case correctly.
+* In Attempt 11, the code had a syntax error due to incorrect indentation and an extra closing parenthesis. Ensure that Codellama's output is syntactically correct.
+* In Attempt 12, the code was missing proper handling of non-numeric inputs. Make sure Codellama handles this case correctly.

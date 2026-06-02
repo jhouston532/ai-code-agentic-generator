@@ -1,0 +1,4 @@
+For the next coder, here are some concrete fixes to consider:
+* In Attempt 6, the code was missing a main function, which caused the syntax error. Make sure to include a main function in your code.
+* In Attempts 7 and 8, the usage message was printed when there were no arguments provided. Check if the number of arguments is less than 2 before printing the usage message.
+* In all attempts, the average calculation should be rounded to two decimal places for better readability.
