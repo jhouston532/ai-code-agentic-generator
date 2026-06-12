@@ -1,0 +1,36 @@
+# Originals
+ollama pull llama3
+ollama pull deepseek-coder
+ollama pull codellama
+ollama pull mistral
+ollama pull qwen2.5-coder:14b
+ollama pull starcoder2:7b
+ollama pull deepseek-coder-v2:16b
+
+# New defaults for v2
+ollama pull qwen2.5-coder:7b
+ollama pull codegemma:7b
+ollama pull llama3.1:8b
+ollama pull phi4:14b
+ollama pull qwen3:8b
+ollama pull qwen2.5:7b
+
+# Optional — only if you have 24 GB VRAM
+ollama pull qwen3-coder:30b
+ollama pull qwen2.5:32b
+ollama pull gemma3:27b
+
+# Evaluators
+# 12 GB evaluator panel
+ollama pull phi4:14b
+ollama pull qwen3:8b
+ollama pull qwen2.5:14b
+ollama pull gemma3:12b
+ollama pull mistral-nemo:12b
+
+# 24 GB evaluator panel
+ollama pull gemma3:27b
+ollama pull qwen3:30b
+ollama pull qwen2.5:32b
+ollama pull mistral-small:24b
+ollama pull phi4:14b
