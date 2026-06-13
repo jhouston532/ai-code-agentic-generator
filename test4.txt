@@ -1,0 +1,8 @@
+TASK:
+Create a text-based chess simulator in which two ai players play against each other. This should use a different letter for each class of piece; for example, p for pawn, k for knight, K for king, Q for queen, etc. 
+It should save the results of the game to a txt file that is a numbered list with each move in chess notation. It should also show a chess board in the command line.
+
+REQUIREMENTS:
+- results saved to a file as numbered moves in chess notation 
+- chess game visual simulation and also move notation 
+- chess ais should be able to play multiple strategies

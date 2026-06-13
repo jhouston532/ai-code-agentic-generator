@@ -1,4 +1,9 @@
-File "/tmp/tmpvzw_cixf.py", line 1
-    This will output the following results:
-         ^^^^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "C:\Users\nahta\AppData\Local\Temp\tmp5f5cz2ya.py", line 28, in <module>
+    class Pawn(Piece):
+    ...<13 lines>...
+            return moves
+  File "C:\Users\nahta\AppData\Local\Temp\tmp5f5cz2ya.py", line 29, in Pawn
+    symbol = 'p' if 'white' in self.color else 'P'
+                               ^^^^
+NameError: name 'self' is not defined

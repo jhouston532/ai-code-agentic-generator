@@ -1,0 +1,35 @@
+{
+  "sections": [
+    {
+      "name": "Section 1 - Constants and Imports",
+      "description": "Defines constants, imports necessary modules.",
+      "interface": "defines constants PIECE_TYPES, MOVE_NOTATION, FILE_NAME; imports pygame for visual simulation",
+      "model": "qwen2.5-coder:14b"
+    },
+    {
+      "name": "Section 2 - Chess Piece Classes",
+      "description": "Defines classes for each type of chess piece.",
+      "interface": "defines classes Pawn, Knight, Bishop, Rook, Queen, King; may call constants PIECE_TYPES",
+      "model": "qwen2.5-coder:7b"
+    },
+    {
+      "name": "Section 3 - Chess Board and Move Notation",
+      "description": "Defines the chess board class and move notation functions.",
+      "interface": "defines classes ChessBoard, Piece; may call classes from Section 2; defines functions get_move_notation, print_board",
+      "model": "deepseek-coder-v2:16b"
+    },
+    {
+      "name": "Section 4 - AI Players and Game Logic",
+      "description": "Defines the AI players and game logic.",
+      "interface": "defines classes AIPlayer; may call classes from Section 3; defines functions make_move, play_game",
+      "model": "codegemma:7b"
+    },
+    {
+      "name": "Section 5 - Main Entry Point",
+      "description": "Contains the main entry point of the program.",
+      "interface": "defines function main; may call classes and functions from earlier sections",
+      "model": "starcoder2:7b"
+    }
+  ],
+  "notes": "The hardest section (Section 3) is assigned to the strongest model (deepseek-coder-v2:16b). The other sections are assigned based on their difficulty level, with Section 1 being relatively easy and Section 4 requiring more complex logic."
+}

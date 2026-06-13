@@ -1,2 +1,4 @@
-expected : 'Units: 5\nSum: 11\nAverage: 2.2'
-got      : 'Units: 0\nSum: 0\nAverage: 0.0'
+Traceback (most recent call last):
+  File "C:\Users\nahta\AppData\Local\Temp\tmppf48b4g9.py", line 1, in <module>
+    import pygame
+ModuleNotFoundError: No module named 'pygame'

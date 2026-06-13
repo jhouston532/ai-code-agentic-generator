@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/tmp4d2spi4c.py", line 9, in <module>
+    average = total_sum / units
+              ~~~~~~~~~~^~~~~~~
+ZeroDivisionError: division by zero

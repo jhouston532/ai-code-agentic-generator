@@ -1,0 +1,11 @@
+{
+  "strategy": "patch",
+  "reason": "The provided outline is sound, but the code has deviated from it. We will map the failure to specific sections and provide concrete fix instructions.",
+  "section_feedback": {
+    "Section 1 - Constants and Imports": "Remove the import statement for pygame as it's not required for a text-based chess simulator.",
+    "Section 2 - Chess Piece Classes": "Implement movement and attack logic for each piece class. This will enable AI players to execute different strategies.",
+    "Section 3 - Chess Board and Move Notation": "Develop a command-line display for the chess board using ASCII characters. Implement logic for generating and displaying moves in standard chess notation.",
+    "Section 4 - AI Players and Game Logic": "Create AI players capable of executing different strategies by implementing movement and attack logic for each piece class.",
+    "Section 5 - Main Entry Point": "Add functionality to save game results with numbered moves to a text file. This will meet the requirement of saving results to a file as numbered moves in chess notation."
+  }
+}

@@ -1,5 +1,4 @@
 Traceback (most recent call last):
-  File "/tmp/tmp4d2spi4c.py", line 9, in <module>
-    average = total_sum / units
-              ~~~~~~~~~~^~~~~~~
-ZeroDivisionError: division by zero
+  File "C:\Users\nahta\AppData\Local\Temp\tmpdntte6pn.py", line 1, in <module>
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
